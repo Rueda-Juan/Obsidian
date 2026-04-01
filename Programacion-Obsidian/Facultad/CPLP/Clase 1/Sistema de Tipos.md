@@ -1,11 +1,20 @@
+---
+aliases:
+  - sistema de tipos
+  - tipado
+---
+Establece **reglas** sobre los tipos de datos y su uso en un [[Lenguaje de Programación]].
 
-Establece **reglas** sobre los tipos de datos y su uso. 
+#### Funciones principales
+- Detectar errores
+- Garantizar consistencia
+- Mejorar seguridad del programa
 
-**Funciones principales:** 
-- detectar errores 
-- garantizar consistencia 
-- mejorar seguridad del programa
+#### Clasificación
 
-**Ejemplos:**
-- tipado estático vs. dinámico 
-- tipado fuerte vs. débil
+| Criterio | Opciones |
+| -------- | -------- |
+| **Momento de ligadura** | [[Momento de Ligadura Variable-Tipo\|Tipado estático]] vs. [[Momento de Ligadura Variable-Tipo\|tipado dinámico]] |
+| **Rigidez** | Fuertemente tipado vs. débilmente tipado |
+
+> Ver también: [[Atributo Tipo]], [[Semántica Estática]], [[Clases de Tipo]]

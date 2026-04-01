@@ -4,7 +4,7 @@ aliases:
   - sintaxis
   - sintáctica
 ---
-Es el conjunto de reglas sintácticas y [[Gramatica|gramaticales]] que determinan cómo se deben estructurar las instrucciones del [[Lenguaje de Programación|lenguaje]]. Define la forma válida de los programas. Suele describirse mediante gramáticas formales (por ejemplo, [[BNF]] o [[EBNF]]).
+Es el conjunto de reglas sintácticas y [[Gramática|gramaticales]] que determinan cómo se deben estructurar las instrucciones del [[Lenguaje de Programación|lenguaje]]. Define la forma válida de los programas. Suele describirse mediante gramáticas formales (por ejemplo, [[BNF]] o [[EBNF]]).
 
 #### Elementos que la componen
 - **Alfabeto** o conjunto de caracteres
