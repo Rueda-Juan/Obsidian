@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "912a80e6463939ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "d55237649c8184af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7f55d2a380ed03d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          },
+          {
+            "id": "d61aa618fe32b89b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Facultad/CPLP/Clase 1/BNF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BNF"
+            }
+          },
+          {
+            "id": "9c8c31708629b233",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programación"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "70a2cf97e83bb0d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfa579f4c1bae28c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "452da899d0c9da07",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "d04a1b4f8539a3b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "6db21808f3b69b17",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 247.5
+  },
+  "right": {
+    "id": "00278d6b29726c3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e96eb4a77744ef15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f00d437ed26b721",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Facultad/CPLP/Clase 1/Clase 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Clase 1"
+            }
+          },
+          {
+            "id": "a973220b58b1f80d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Backend/Clase 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Clase 2"
+            }
+          },
+          {
+            "id": "35964a82e67e1df0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "9d6bcd62f02e7ac7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "a5156f513b890230",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Facultad/CPLP/Clase 1/BNF.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de BNF"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "c7f55d2a380ed03d",
+  "lastOpenFiles": [
+    "Facultad/CPLP/Clase 1/BNF.md",
+    "Facultad/CPLP/Clase 2/Clase 2.md",
+    "Facultad/CPLP/Clase 2",
+    "Facultad/CPLP/Clase 1/Ortogonal.md",
+    "Facultad/CPLP/Clase 1/Producción Recursiva.md",
+    "Facultad/CPLP/Clase 1/Palabra Reservada.md",
+    "Facultad/CPLP/Clase 1/Gramática Sensible al Contexto.md",
+    "Facultad/CPLP/Clase 1/Gramática Libre de Contexto.md",
+    "Facultad/CPLP/Clase 1/Gramática Ambigua.md",
+    "Facultad/CPLP/Clase 1/Parsing.md",
+    "Facultad/CPLP/Clase 1/Árbol de Derivación.md",
+    "Facultad/CPLP/Clase 1/Diagramas Sintácticos.md",
+    "Facultad/CPLP/Clase 1/EBNF.md",
+    "Facultad/CPLP/Clase 1/Abstracción.md",
+    "Facultad/CPLP/Clase 1/Clase 1.md",
+    "copilot/copilot-conversations/Transcripción_Estilo_Archivo_Barrio_Universidad@20260401_130027.md",
+    "copilot/copilot-conversations/terminalo_INTRODUCCIÓN_Y_EVALUACIÓN_DE_LENGUAJES_CONCEPTOS_Y_PARADIGMAS_DE@20260401_125247.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "Facultad/CPLP/Clase 1",
+    "Facultad/CPLP",
+    "Facultad",
+    "Backend"
+  ]
+}
