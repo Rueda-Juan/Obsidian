@@ -10,13 +10,15 @@ Una **gramática libre de contexto** (CFG, Context-Free Grammar) es aquella en l
 Describe la [[Sintaxis]] de la mayoría de los [[Lenguaje de Programación|lenguajes]] modernos como C, Java y Python.
 
 #### Limitaciones
+
 No puede verificar:
+
 - si una variable fue **declarada** antes de usarse
 - si los **tipos son compatibles**
 - No considera lo que se define antes ni después
 
-Estas verificaciones se delegan a la fase de **análisis semántico** del compilador.
+Estas verificaciones se delegan a la fase de **[[Análisis Semántico|análisis semántico]]** del [[Compilación|compilador]], utilizando herramientas como la [[Gramática de Atributos]].
 
 > Contraste: [[Gramática Sensible al Contexto]]
 
-> Ver también: [[Gramática]], [[Sintaxis]], [[Semántica]]
+> Ver también: [[Gramática]], [[Sintaxis]], [[Semántica]], [[Gramática de Atributos]]

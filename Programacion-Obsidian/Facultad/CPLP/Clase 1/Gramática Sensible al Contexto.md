@@ -9,7 +9,7 @@ Una **gramática sensible al contexto** (CSG, Context-Sensitive Grammar) realiza
 
 #### Características
 - Se utilizó en lenguajes como **Algol 68**
-- Se manejan en la fase del **análisis semántico** del compilador para detectar restricciones semánticas
+- Se manejan en la fase del **[[Análisis Semántico|análisis semántico]]** del [[Compilación|compilador]] para detectar restricciones de [[Semántica Estática|semántica estática]]
 - Se pueden utilizar en **IA**: aplicaciones de machine learning, reconocimiento de voz
 - En **lingüística**: para especificar reglas del lenguaje natural
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d55237649c8184af",
+        "id": "ea9a748676fd1845",
         "type": "tabs",
         "children": [
           {
-            "id": "c7f55d2a380ed03d",
+            "id": "1ed7e4e25f91a7a6",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -17,34 +17,6 @@
               "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Vista gráfica"
-            }
-          },
-          {
-            "id": "d61aa618fe32b89b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Facultad/CPLP/Clase 1/BNF.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BNF"
-            }
-          },
-          {
-            "id": "9c8c31708629b233",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Programación"
             }
           }
         ]
@@ -212,36 +184,38 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c7f55d2a380ed03d",
+  "active": "1ed7e4e25f91a7a6",
   "lastOpenFiles": [
-    "Facultad/CPLP/Clase 1/BNF.md",
-    "Facultad/CPLP/Clase 2/Clase 2.md",
-    "Facultad/CPLP/Clase 2",
-    "Facultad/CPLP/Clase 1/Ortogonal.md",
-    "Facultad/CPLP/Clase 1/Producción Recursiva.md",
-    "Facultad/CPLP/Clase 1/Palabra Reservada.md",
-    "Facultad/CPLP/Clase 1/Gramática Sensible al Contexto.md",
-    "Facultad/CPLP/Clase 1/Gramática Libre de Contexto.md",
-    "Facultad/CPLP/Clase 1/Gramática Ambigua.md",
-    "Facultad/CPLP/Clase 1/Parsing.md",
-    "Facultad/CPLP/Clase 1/Árbol de Derivación.md",
-    "Facultad/CPLP/Clase 1/Diagramas Sintácticos.md",
-    "Facultad/CPLP/Clase 1/EBNF.md",
     "Facultad/CPLP/Clase 1/Abstracción.md",
-    "Facultad/CPLP/Clase 1/Clase 1.md",
-    "copilot/copilot-conversations/Transcripción_Estilo_Archivo_Barrio_Universidad@20260401_130027.md",
-    "copilot/copilot-conversations/terminalo_INTRODUCCIÓN_Y_EVALUACIÓN_DE_LENGUAJES_CONCEPTOS_Y_PARADIGMAS_DE@20260401_125247.md",
+    "Facultad/CPLP/Clase 1/Gramática.md",
+    "Facultad/CPLP/index.md",
+    "Facultad/CPLP/Clase 1/Gramática Ambigua.md",
+    "Gramática.md",
+    "Facultad/CPLP/Ortogonal.md",
+    "Facultad/CPLP/Clase 1/BNF.md",
+    "Compilador.md",
+    "Facultad/CPLP/Gramática.md",
+    "Facultad/CPLP/Clase 4/Linkeditor.md",
+    "Facultad/CPLP/Clase 4/Estructura Dinámica.md",
+    "Facultad/CPLP/Clase 4/Estructura Basada en Pila.md",
+    "Facultad/CPLP/Clase 4/Estructura Estática.md",
+    "Facultad/CPLP/Clase 4/Estructura de Ejecución.md",
+    "Facultad/CPLP/Clase 4/Procesador Abstracto.md",
+    "Facultad/CPLP/Clase 4/Instancia de Unidad.md",
+    "Facultad/CPLP/Clase 4/Segmento de Código.md",
+    "Facultad/CPLP/Clase 4/Registro de Activación.md",
+    "Facultad/CPLP/Clase 4/Ligadura entre Parámetros.md",
+    "Facultad/CPLP/Clase 4/Parámetro Real.md",
+    "Facultad/CPLP/Clase 4/Parámetro Formal.md",
+    "Facultad/CPLP/Clase 4/Parámetro.md",
+    "Facultad/CPLP/Clase 4/Variable Rutina.md",
+    "Facultad/CPLP/Clase 4/Signatura.md",
+    "Facultad/CPLP/Clase 4/Definición vs Declaración.md",
+    "Facultad/CPLP/Clase 4/Rutina.md",
+    "Facultad/CPLP/Clase 4",
+    "Facultad/CPLP/Clase 3",
+    "Facultad/CPLP/Clase 2",
     "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Facultad/CPLP/Clase 1",

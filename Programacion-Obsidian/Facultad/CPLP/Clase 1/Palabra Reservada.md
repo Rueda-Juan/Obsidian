@@ -13,6 +13,7 @@ Las **palabras clave** (keywords) son palabras que tienen un **significado** den
 Las **palabras reservadas** son palabras clave que además **no pueden ser usadas** por el programador como identificador de otra entidad.
 
 #### Ventajas de su uso
+
 - Hacen los programas **más legibles**
 - Permiten una **rápida traducción**
 
@@ -24,4 +25,4 @@ Las **palabras reservadas** son palabras clave que además **no pueden ser usada
 
 **Python:** en la versión 3.x se quitaron `exec` y `print` (ahora son funciones incorporadas) y se añadieron `nonlocal`, `True`, `False` y `None`.
 
-> Ver también: [[Sintaxis]]
+> Ver también: [[Sintaxis]], [[Atributo Nombre]], [[Análisis Léxico]]

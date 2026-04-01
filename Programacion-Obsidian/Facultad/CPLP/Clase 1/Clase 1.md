@@ -199,7 +199,7 @@ Formas para definir la sintaxis:
 
 ## [[Gramática]]
 
-Una [[Gramatica|gramática]] es un conjunto de reglas finitas que define un conjunto infinito de posibles sentencias válidas en el lenguaje.
+Una [[Gramática|gramática]] es un conjunto de reglas finitas que define un conjunto infinito de posibles sentencias válidas en el lenguaje.
 
 **G = (N, T, S, P)** donde N = no terminales, T = terminales, S = símbolo distinguido, P = producciones.
 
@@ -236,3 +236,71 @@ Para definir gramáticas complejas se pueden reutilizar subgramáticas. Por ejem
 - Representación gráfica equivalente a BNF/EBNF pero más intuitiva
 - Cada diagrama tiene entrada y salida; el camino determina el análisis
 - Cada diagrama representa una regla de la [[Gramática]]
+
+---
+
+# [[Semántica]] (Introducción)
+
+La **semántica** describe el significado de los símbolos, palabras y frases de un lenguaje, ya sea natural o informático. Describe el significado de programas **sintácticamente válidos** para un lenguaje determinado.
+
+#### Ejemplos en C
+```c
+int vector[10];                         // declaración
+if (a < b) max = a; else max = b;       // estructura de control
+```
+
+> La semántica **no es igual** en todos los lenguajes. Código similar en distintos lenguajes puede tener diferente significado.
+
+## Tipos de semántica
+
+#### [[Semántica Estática]]
+- **No** está relacionada con el significado del programa, sino con las **formas válidas**
+- Se la llama así porque el análisis puede hacerse en **compilación**
+- Para describirla formalmente sirven las [[Gramática de Atributos|gramáticas de atributos]] (Knuth, 1968)
+- Generalmente las [[Gramática Sensible al Contexto|gramáticas sensibles al contexto]] resuelven los aspectos de la semántica estática
+
+#### [[Semántica Dinámica]]
+- Describe el **efecto de ejecutar** las diferentes construcciones del lenguaje
+- Su efecto se describe **durante la ejecución** del programa
+- Los programas solo se pueden ejecutar si son correctos para la sintaxis **y** para la semántica estática
+
+## Descripción formal de la semántica
+
+No existen herramientas estándar como en el caso de la sintaxis ([[BNF]], [[Diagramas Sintácticos]]). Existen diferentes soluciones formales:
+
+- **[[Semántica Axiomática]]:** razonamiento formal sobre la corrección de programas
+- **[[Semántica Denotacional]]:** asocia construcciones con funciones matemáticas
+- **[[Semántica Operacional]]:** describe cómo se ejecuta un programa paso a paso
+
+## Procesamiento de un lenguaje
+
+Las computadoras ejecutan lenguajes de bajo nivel (lenguaje de máquina). El problema básico es cómo los programas escritos en lenguajes de alto nivel pueden ser ejecutados sobre una computadora cuyo lenguaje es muy diferente.
+
+| Alternativa | Descripción |
+| ----------- | ----------- |
+| **[[Interpretación]]** | Un programa "intérprete" lee, analiza y ejecuta **una a una** las sentencias. Por cada posible acción hay un subprograma que la ejecuta |
+| **[[Compilación\|Traducción]]** | Los programas se traducen a una versión en lenguaje de máquina **antes** de ser ejecutados |
+
+> Para más detalles sobre compilación, interpretación y traducción híbrida, ver [[Clase 2]].
+
+## Sintaxis vs. Semántica
+
+| | Sintaxis | Semántica |
+| - | -------- | --------- |
+| **Define** | Cómo componer letras, dígitos y caracteres para formar programas | El significado de los programas sintácticamente válidos |
+| **Ejemplo** | `v: array [0..9] of integer` (Pascal) e `int v[10]` (C) son **sintácticamente diferentes** | Ambas **significan lo mismo**: un arreglo de 10 enteros |
+
+## Errores Sintácticos vs. Semánticos
+
+Los errores semánticos se refieren a la **semántica estática** (detectables en compilación).
+
+```c
+int main() {
+    Int e := 10;     // SINTÁCTICO — "Int" no es un tipo válido, ":=" no existe en C
+    if (a < 10) {    // SEMÁNTICO — "a" no fue declarada
+        e = "hola";  // SEMÁNTICO — asignar string a int
+    }
+    end              // SINTÁCTICO — "end" no existe en C
+}
+```
+
