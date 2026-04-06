@@ -112,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Facultad/CPLP/Clase 1/Clase 1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -169,6 +170,8 @@
   },
   "active": "e7578127aadedbdc",
   "lastOpenFiles": [
+    "Facultad/CPLP/Clase 1/Sintaxis.md",
+    "Facultad/CPLP/Clase 1/Clase 1.md",
     "Facultad/CPLP/Ortogonal.md",
     "Facultad/CPLP/index.md",
     "Facultad/CPLP/Clase 4/Variable Rutina.md",
@@ -194,8 +197,6 @@
     "Facultad/CPLP/Clase 3/Tipo Abstracto de Datos.md",
     "Facultad/CPLP/Clase 3/Tiempo de Vida.md",
     "Facultad/CPLP/Clase 3/Sobrecarga.md",
-    "Facultad/CPLP/Clase 3/Puntero.md",
-    "Facultad/CPLP/Clase 3/Momento de Ligadura.md",
     "Facultad/CPLP/Clase 3"
   ]
 }
