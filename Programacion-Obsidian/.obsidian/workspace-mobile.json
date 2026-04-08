@@ -168,8 +168,12 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "e7578127aadedbdc",
+  "active": "ae7919db986fb2a9",
   "lastOpenFiles": [
+    "Facultad/Ingenieria de software 2/Clase 1",
+    "Facultad/Ingenieria de software 2",
+    "Compilador.md",
+    "Facultad/CPLP/Clase 3/Ligadura.md",
     "Facultad/CPLP/Clase 2/Interpretación.md",
     "Facultad/CPLP/Clase 2/Compilación.md",
     "Facultad/CPLP/Clase 2/Traducción Híbrida.md",
@@ -193,10 +197,7 @@
     "Facultad/CPLP/Clase 4/Estructura Dinámica.md",
     "Facultad/CPLP/Clase 4/Estructura de Ejecución.md",
     "Facultad/CPLP/Clase 4/Estructura Basada en Pila.md",
-    "Facultad/CPLP/Clase 4/Definición vs Declaración.md",
-    "Facultad/CPLP/Clase 4/Clase 4.md",
     "Facultad/CPLP/Clase 4",
-    "Facultad/CPLP/Clase 3/Variable.md",
     "Facultad/CPLP/Clase 3"
   ]
 }
